@@ -15,7 +15,7 @@ const Cart = () => {
   const router = useRouter();
 
   const placeOrder = () => {
-    setOrders({ current: [], previous: currentOrders });
+    setOrders({ current: [], previous: [...prevOrders, ...currentOrders] });
     router.push("/");
   };
 

@@ -23,11 +23,11 @@ const CounterButton = ({ name, price, quantity }) => {
 
   return (
     <div className="flex items-center text-tst-scndry font-bold buttonShadow px-2 py-1 text-sm rounded-2lg">
-      <button onClick={addNewItem} className="iconShadow p-1 mr-1 rounded-full">
+      <button onClick={addNewItem} className="iconShadow h-4 w-4 flex justify-center items-center mr-1 rounded-full">
         <Image src={"/plus.svg"} width={7} height={10} alt="Add" />
       </button>
       <span className="mx-1">{quantity}</span>
-      <button onClick={removeItem} className="iconShadow p-1 rounded-full">
+      <button onClick={removeItem} className="iconShadow h-4 w-4 flex justify-center items-center rounded-full">
         <Image src={"/minus.svg"} width={7} height={10} alt="Remove" />
       </button>
     </div>

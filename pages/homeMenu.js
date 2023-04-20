@@ -15,7 +15,7 @@ const HomeMenu = () => {
     test2: [
       { name: "Acai Bowl 2", price: "299" },
       { name: "Sunrise Acai Bowl 2", price: "200" },
-      { name: "Acai Bowl 2", price: "100" },
+      { name: "Acai Bowl 22", price: "100" },
       { name: "2 Bowl", price: "300" },
     ],
   };
@@ -59,15 +59,6 @@ const HomeMenu = () => {
         </div>
 
         <Footer />
-
-        {/* {JSON.stringify(orders)}
-      <button
-        onClick={() => {
-          setOrders({ current: [0], previous: [1] });
-        }}
-      >
-        Toggle mode
-      </button> */}
       </main>
     </>
   );

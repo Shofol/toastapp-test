@@ -1,9 +1,140 @@
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Graphik";
+  src: url("../public/font/Graphik-Regular.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("../public/font/Graphik-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url("../public/font/Graphik-Semibold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.iconButtonShadow {
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+}
+
+.navbarShadow {
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+}
+
+.cardShadow {
+  box-shadow: -5px 5px 10px rgba(217, 217, 217, 0.2),
+    5px -5px 10px rgba(217, 217, 217, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(217, 217, 217, 0.9);
+}
+
+.foodCardShadow {
+  box-shadow: inset -2px 2px 4px rgba(205, 205, 205, 0.2),
+    inset 2px -2px 4px rgba(205, 205, 205, 0.2),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 5px rgba(205, 205, 205, 0.9);
+}
+
+.buttonShadow {
+  box-shadow: -5px 5px 10px rgba(221, 221, 224, 0.2),
+    5px -5px 10px rgba(221, 221, 224, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(221, 221, 224, 0.9);
+}
+
+.iconShadow {
+  box-shadow: inset -2px 2px 4px rgba(222, 222, 222, 0.2),
+    inset 2px -2px 4px rgba(222, 222, 222, 0.2),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 5px rgba(222, 222, 222, 0.9);
+}
+
+.lightIconShadow {
+  box-shadow: -5px 5px 10px rgba(222, 222, 222, 0.2),
+    5px -5px 10px rgba(222, 222, 222, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(222, 222, 222, 0.9);
+}
+
+.bookIconShadow {
+  box-shadow: inset -2px 2px 4px rgba(212, 212, 212, 0.2),
+    inset 2px -2px 4px rgba(212, 212, 212, 0.2),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 5px rgba(212, 212, 212, 0.9);
+}
+
+.cartIconShadow {
+  box-shadow: -5px 5px 10px rgba(222, 222, 222, 0.2),
+    5px -5px 10px rgba(222, 222, 222, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(222, 222, 222, 0.9);
+}
+
+button:active {
+  box-shadow: inset -0.125rem 0.125rem 0.25rem 0 rgba(221, 221, 224, 0.2),
+    inset 0.125rem -0.125rem 0.25rem 0 rgba(221, 221, 224, 0.2),
+    inset -0.125rem -0.125rem 0.25rem 0 rgba(255, 255, 255, 0.9),
+    inset 0.125rem 0.125rem 0.3125rem 0 rgba(220, 220, 220, 0.9);
+}
+
+.smallFoodCardShadow {
+  box-shadow: inset -2px 2px 4px rgba(220, 220, 220, 0.2),
+    inset 2px -2px 4px rgba(220, 220, 220, 0.2),
+    inset -2px -2px 4px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 5px rgba(220, 220, 220, 0.9);
+}
+
+.cartNavbarShadow {
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+}
+
+.cartIconButtonShadow {
+  box-shadow: -5px 5px 10px rgba(222, 222, 222, 0.2),
+    5px -5px 10px rgba(222, 222, 222, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(222, 222, 222, 0.9);
+}
+
+.cartShadow {
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 2px 2px 5px rgba(174, 174, 192, 0.4);
+}
+
+.orderButton {
+  background: linear-gradient(135deg, #459eaf 0%, #007991 100%);
+  box-shadow: -5px 5px 10px rgba(205, 205, 205, 0.2),
+    5px -5px 10px rgba(205, 205, 205, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(205, 205, 205, 0.9);
+}
+
+.orderButtonIcon {
+  background: linear-gradient(135deg, #459eaf 0%, #007991 100%);
+  box-shadow: inset -2px 2px 4px rgba(28, 111, 128, 0.2),
+    inset 2px -2px 4px rgba(28, 111, 128, 0.2),
+    inset -2px -2px 4px rgba(42, 167, 192, 0.9),
+    inset 2px 2px 5px rgba(28, 111, 128, 0.9);
+  border-radius: 100px;
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -104,4 +235,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

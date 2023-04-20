@@ -6,21 +6,21 @@
 
 @font-face {
   font-family: "Graphik";
-  src: url("../public/font/Graphik-Regular.woff") format("woff");
+  src: url("/font/Graphik-Regular.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Graphik";
-  src: url("../public/font/Graphik-Bold.woff") format("woff");
+  src: url("/font/Graphik-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Graphik";
-  src: url("../public/font/Graphik-Semibold.woff") format("woff");
+  src: url("/font/Graphik-Semibold.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }

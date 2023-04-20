@@ -10,6 +10,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Pages:
 
-Special Menu - index.js
-Menu Page - homeMenu.js
-Order Page - cart.js
+- Special Menu - index.js
+- Menu Page - homeMenu.js
+- Order Page - cart.js
